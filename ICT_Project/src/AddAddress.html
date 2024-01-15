@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Address</title>
+  <link rel="stylesheet" href="AddAddress.css">
+  <link rel="website icon" type="png" href="logo_top.png" > 
+  <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <label>CoreNexa</label>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Home1.html" >Home</a></li>
+          <li><a href="AddCard.html">Store Card</a></li>
+          <li><a href="AddPassword.html">Store Password</a></li>
+          <li><a href="AddAddress.html">Store Address</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="thisistitle">
+        <h1>
+          Get secure with CoreNexa!
+        </h1>
+        <p>
+            Centralize and store addresses for quick access and organization
+        </p>
+      </div>
+      <div class="add-record">
+        <h1>Address</h1>
+        <form>
+            <div class="options">
+                <label>
+                    <input type="radio" id="residential" name="address" value="Residential Address">
+                    Residential Address
+                </label>
+                <label>
+                    <input type="radio" id="mailing" name="address" value="Mailing Address">
+                    Mailing Address
+                </label>
+                <label>
+                    <input type="radio" id="shipping" name="address" value="shipping Address">
+                    Shipping Address
+                </label>
+            </div>
+            <div class="otherinputs">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="street">Street Address</label>
+                <input type="text" id="street" name="street" required>
+                <label for="state">State, Province, or Region</label>
+                <input type="text" id="state" name="state">
+                <label for="zip">ZIP Code</label>
+                <input type="number" id="zip" name="zip">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
+                <input type="submit" value="Save" onclick="addingAddress()">
+            </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

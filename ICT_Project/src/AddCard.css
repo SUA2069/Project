@@ -1,0 +1,142 @@
+body {
+  font-family: Catamaran, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 1080px;
+  /*background-color: #F3F7F0;*/
+  background-image: linear-gradient(to bottom right,transparent 50%,  #62b6cb 50%),  
+  linear-gradient(to top left,transparent 50%, #bee9e8 55%);
+  font-weight: 800;
+}
+header {
+  width: 100%;
+  background-color: #1B4965;
+  padding: 12px 0;
+  color: #d1e2e8;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.logo label {
+  max-height: 3px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  text-decoration: none;
+}
+
+nav ul li {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li {
+  margin-right: 10px;
+}
+a {
+  /*color: white;
+  text-decoration: none;*/
+  text-decoration: none;
+    color: #d1e2e8;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    
+    background-color: #1B4965;
+}
+li a:hover {
+  color: #1b4965;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #BEE9E8;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container{
+  margin: 100px auto;
+  display: flex; 
+  align-items: center;
+  width: 75%;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+  background-color: #b6eeed;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.add-record{
+  flex: 1;
+  padding: 40px;
+  background-color: #F3F7F0;
+}
+
+.add-record h1{
+  font-size: 26px;
+  text-align: center;
+}
+
+.add-record form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-record form input{
+  font-family: Catamaran;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.add-record form input[type="submit"]{
+  outline-offset: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  
+  border: 1px;
+  background-color: #5fa8d3;
+  border-radius: 5px;
+}
+
+.add-record form input[type="submit"]:hover{
+  border: 1px;
+  color:#1b4965;
+  transition: color 0.3s ease-in-out;
+  background-color: #cae9ff;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thisistitle{
+  flex: 1;
+  padding: 40px;
+  color: #1b4965;
+  text-align: center;
+}
+
+.thisistitle h1{
+  font-size: 42px;
+  margin-bottom: 0;
+}
+
+.thisistitle p{
+  font-size: 21.5px;
+}
